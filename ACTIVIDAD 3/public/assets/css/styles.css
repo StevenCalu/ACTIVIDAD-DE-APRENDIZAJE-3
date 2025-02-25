@@ -1,0 +1,78 @@
+/* Reset básico para todos los elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos generales del body */
+  body {
+    background-color: #f5f5f5; /* Color de fondo suave */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  /* Contenedor centrado */
+  .container {
+    max-width: 960px;
+    margin: 0 auto;  /* Centra el contenedor horizontalmente */
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+  }
+  
+  /* Centrando títulos y párrafos */
+  h1, h2, h3, h4, h5, h6, p {
+    text-align: center;
+  }
+  
+  /* Estilo para encabezados */
+  h1 {
+    margin-bottom: 20px;
+    font-weight: 700;
+  }
+  
+  /* Enlaces con un toque elegante */
+  a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+  }
+  
+  /* Estilos para la navegación (si no se usa solo Bootstrap) */
+  .navbar {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Botones con estilo personalizado */
+  .btn {
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-weight: 600;
+  }
+  
+  /* Estilos para modales: dar un toque elegante */
+  .modal-content {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.2);
+  }
+  
+  /* Espaciados útiles */
+  .mt-20 {
+    margin-top: 20px;
+  }
+  
+  .mb-20 {
+    margin-bottom: 20px;
+  }
+  
